@@ -51,7 +51,6 @@ def find_max_profit(prices):
     # for currentPrice in prices[1:]
     for i in range(1, len(prices)):
 
-        # Temp variable to store position of minimum element
         print('loop', prices[i])
         print('i', i)
         maxProfit = max(prices[i] - minPrice, maxProfit)
